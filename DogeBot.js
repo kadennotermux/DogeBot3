@@ -591,24 +591,24 @@ ${gaya1}🗓 *Date* : ${tanggal}
 ${gaya1} 🕧*Time* : ${time}
 
 ❏「 INFO BOT 」
-${gaya1} ⏱*Speed* : ${latensie.toFixed(4)} Second
-${gaya1} 🕚*Runtime* : ${runtime(process.uptime())}
-${gaya1} 🥰*Bot Name* : ${botname}
-${gaya1} 👨‍✈️*Owner Name* : ${ownername}
-${gaya1} ☎*Owner Number* : @${pemilik.split('@')[0]}
-${gaya1} 📃*Host Name :* ${os.hostname()}
-${gaya1} 🖥*Platform :* ${os.platform()}
-${gaya1}💻 *Wa Version :* ${DogeXeonOP.user.phone.wa_version}
-${gaya1} *Mode :* ${self ? "Self" : "Public"}
-${gaya1} 🤗*Autoread* : ${autoread ? "Active" : "Off"}
-${gaya1} ⌨*Autotype* : ${autoketik ? "Active" : "Off"}
-${gaya1} 🔥*Autovn* : ${autovn ? "Active" : "Off"}
+${gaya1} ⏱ *Speed* : ${latensie.toFixed(4)} Second
+${gaya1} 🕚 *Runtime* : ${runtime(process.uptime())}
+${gaya1} 🥰 *Bot Name* : ${botname}
+${gaya1} 👨‍✈️ *Owner Name* : ${ownername}
+${gaya1} ☎ *Owner Number* : @${pemilik.split('@')[0]}
+${gaya1} 📃 *Host Name :* ${os.hostname()}
+${gaya1} 🖥 *Platform :* ${os.platform()}
+${gaya1}💻  *Wa Version :* ${DogeXeonOP.user.phone.wa_version}
+${gaya1} 🥸 *Mode :* ${self ? "Self" : "Public"}
+${gaya1} 🤗 *Autoread* : ${autoread ? "Active" : "Off"}
+${gaya1} ⌨ *Autotype* : ${autoketik ? "Active" : "Off"}
+${gaya1} 🔥 *Autovn* : ${autovn ? "Active" : "Off"}
 
 ❏「 USER INFO 」
-${gaya1} 🤩*Name* : ${pushname}
-${gaya1}📕 *Bio* : ${bio_user}
-${gaya1}📞 *Number* : @${senderr.split('@')[0]}
-${gaya1} 📡*Status* : ${isOwner ? 'Owner' : 'User'}`
+${gaya1} 🤩 *Name* : ${pushname}
+${gaya1}📕  *Bio* : ${bio_user}
+${gaya1}📞  *Number* : @${senderr.split('@')[0]}
+${gaya1} 📡 *Status* : ${isOwner ? 'Owner' : 'User'}`
 teks =
 `_Please Select Button Below_
 _If You Are A Mod User_
