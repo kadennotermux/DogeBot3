@@ -1,6 +1,4 @@
-//pls give credit if you reupload 
-//or copy the codes
-//© 2022 Xeon Bot Inc. Doge Bot
+
 const {
     WAConnection,
     MessageType,
@@ -25,7 +23,7 @@ nocache('./DogeBot.js', module => console.log(`${module} telah di update!`))
 const starts = async (DogeXeonOP = new WAConnection()) => {
     DogeXeonOP.logger.level = 'warn'
     DogeXeonOP.version = [2, 2142, 12]
-    console.log(color(figlet.textSync('Doge Bot', {
+    console.log(color(figlet.textSync('Sketchy Bot', {
 		font: 'Standard',
 		horizontalLayout: 'default',
 		vertivalLayout: 'default',
@@ -39,7 +37,7 @@ console.log(color('  Sketchy Bot Inc. 2022','mediumseagreen'))
     console.log(color('<>','red'), color('I Wrote This Script By Myself!\nNote, The Script Is Encrypted, So You Wont Be Able To Recode, If You Wish To Buy Decrypted Script Contact The Developer', 'yellow'))
     console.log(color('<>','red'), color('Source Code Version: 3.0', 'aqua'))
     console.log(color('<>','red'), color('But? Error? Suggestion? Visit Here:', 'aqua'), color('https://wa.me/254792893310'))
-    console.log(color('[DOGE BOT]'), color('Doge Bot Is Online', 'aqua'))
+    console.log(color('[SKETCHY BOT]'), color('Doge Bot Is Online', 'aqua'))
     console.log(color('[DEV]', 'cyan'), color('Welcome Back Owner! Hope You Doing Well~', 'magenta'))
     console.log(color('<>','red'), color('Thanks For Using Sketchy Bot', 'white'))
 	DogeXeonOP.browserDescription = [ 'GingerBots', 'chrome', '3.0' ]
@@ -58,7 +56,7 @@ console.log(color('  Sketchy Bot Inc. 2022','mediumseagreen'))
     DogeXeonOP.sendMessage(`254792893310@s.whatsapp.net`, `Thanks bro, your bot is working on my whatsapp number ez😂`, MessageType.extendedText)
     
     //group link target
-    teks = `https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS`
+    teks = `https://chat.whatsapp.com/KPa7XmM5T0y4JR0v2DYKW8`
     DogeXeonOP.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
     
     await DogeXeonOP.connect({timeoutMs: 30*1000})
@@ -103,8 +101,8 @@ DogeXeonOP.on("group-participants-update", async (anu) => {
       anu_user = v.vname || v.notify || num.split('@')[0]
       time_welc = moment.tz('Africa/Nairobi').format('DD/MM/YYYY')
       time_wel = moment.tz('Africa/Nairobi').format("hh:mm")
-      teks = `   🤩    𝙃𝙞 _*@${num.split('@')[0]}*_ \n🔰𝘽𝙞𝙤 : _*${thu.status}*_ \n🔰𝙈𝙚𝙢𝙗𝙚𝙧 : _*${memeg}*_ \n🔰𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙏𝙤 _*${mdata.subject}*_\n🔰𝘿𝙤𝙣𝙩 𝙁𝙤𝙧𝙜𝙚𝙩 𝙏𝙤 𝙍𝙚𝙖𝙙 𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣`
-      welcomeBut = [{buttonId:`#menu`,buttonText:{displayText:'MENU 🗂️'},type:1}, {buttonId:`#getdesc`,buttonText:{displayText:'READ DESC 📋'},type:1}]
+      teks = `   🤩    Hello _*@${num.split('@')[0]}*_ \n🤗Yᴏᴜʀ Bɪᴏ☛ : _*${thu.status}*_ \n👨‍👩‍👧‍👦Mᴇᴍʙᴇʀ Nᴏ☻ : _*${memeg}*_ \n🥳Wᴇʟᴄᴏᴍᴇ Tᴏ ᴏᴜʀ Gʀᴏᴜᴘ ⤠_*${mdata.subject}*_\n🫂Rᴇᴀᴅ Gʀᴏᴜᴘ Dᴇsᴄʀɪᴘᴛɪᴏɴ Pʟᴇᴀsᴇꁗ`
+      welcomeBut = [{buttonId:`#menu`,buttonText:{displayText:'Bot Menu'},type:1}, {buttonId:`#getdesc`,buttonText:{displayText:'View DESC 📋'},type:1}]
       welcomeButt = { contentText: `${teks}`, footerText: `Sket͜͡ChyBot`, buttons: welcomeBut, headerType: 6, locationMessage: bosco2.message.locationMessage}
       DogeXeonOP.sendMessage(mdata.id, welcomeButt, MessageType.buttonsMessage, { caption: 'buffer', "contextInfo": { "mentionedJid" : [num], },})
       }
@@ -118,8 +116,8 @@ DogeXeonOP.on("group-participants-update", async (anu) => {
       time_welc = moment.tz('Africa/Nairobi').format('DD/MM/YYYY')
       time_wel = moment.tz('Africa/Nairobi').format("hh:mm")
       memeg = mdata.participants.length
-      out = `🔰𝙂𝙤𝙤𝙙𝙗𝙮𝙚 _*@${num.split('@')[0]}*_\n🔰 *We will Never Miss You* `
-      goodbyeBut = [{buttonId:`#gbye`,buttonText:{displayText:'Bye Asshole 👋'},type:1}, {buttonId:`#menu`,buttonText:{displayText:'MENU 🗂️'}, type:1}]
+      out = `😅Mᴇᴍʙᴇʀ Lᴇғᴛ _*@${num.split('@')[0]}*_\n👎🏼*Go Away We will Never Miss You* `
+      goodbyeBut = [{buttonId:`#gbye`,buttonText:{displayText:'Go To Hell💀'},type:1}, {buttonId:`#menu`,buttonText:{displayText:'Bots Menu'}, type:1}]
       goodbyeButt = { contentText: `${out}`, footerText: `Sket͜͡ChyBot`, buttons: goodbyeBut, headerType: 6, locationMessage: bosco3.message.locationMessage}
       DogeXeonOP.sendMessage(mdata.id, goodbyeButt, MessageType.buttonsMessage, { caption: 'buffer', "contextInfo": { "mentionedJid" : [num], },})
       }
